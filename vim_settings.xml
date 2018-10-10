@@ -6,11 +6,12 @@
       <file name="/Dummy.txt" timestamp="1537127926463">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539198717690">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="^" line="24" column="0" />
-        <mark key="." line="24" column="0" />
+      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539206404443">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="107" column="60" />
+        <mark key="]" line="109" column="15" />
+        <mark key="^" line="109" column="15" />
+        <mark key="." line="109" column="15" />
       </file>
       <file name="$USER_HOME$/google-drive/ws/ansible/README.md" timestamp="1537207067648">
         <mark key="[" line="32" column="110" />
@@ -18,6 +19,7 @@
         <mark key="^" line="31" column="5" />
         <mark key="." line="31" column="5" />
       </file>
+      <file name="$USER_HOME$/bin/backup-remote-machine" timestamp="1539198840024" />
       <file name="$USER_HOME$/google-drive/ws/ansible/.gitignore" timestamp="1537128565178">
         <mark key="[" line="4" column="6" />
         <mark key="]" line="5" column="4" />
@@ -25,16 +27,28 @@
         <mark key="." line="5" column="4" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="23" column="52" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="26" column="3" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="52" column="67" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="78" column="101" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="0" column="0" filename="$USER_HOME$/bin/resize-droplet" />
+    </jumps>
     <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAjIFRPRE8gdXNlIElEIGhlcmUK</text>
+      </register>
+      <register name="-" type="4">
+        <text>$(doctl compute droplet-action get &quot;$droplet_id&quot; --action-id &quot;$action_id&quot; --output=json | jq '.[].status' | tr -d '&quot;')</text>
+      </register>
+      <register name="/" type="4">
+        <text>droplet_size</text>
+      </register>
       <register name="0" type="2">
-        <text encoding="base64">ZWNobyAiRm91bmQgSUQgJGRyb3BsZXRfaWQgZm9yICRkcm9wbGV0X25hbWUuIgo=</text>
+        <text encoding="base64">ICAjIFRPRE8gcmVwbGFjZSB3aXRoIGZldGNoLWRyb3BsZXQtaW5mby1ieS1pZAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAjIFRPRE8gdXNlIElEIGhlcmUK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -43,33 +57,45 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">cyAtbHJ0aCAiJGxvY2FsX2Rlc3QiCg==</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">CnJlbW90ZV9tYWNoaW5lPSIkMSIKbG9jYWxfYmFja3VwX2Jhc2VfZGlyPSJ+L0RvY3VtZW50cy9iYWNrdXBzL21hY2hpbmVzIgpsb2NhbF9kZXN0PSIke2xvY2FsX2JhY2t1cF9iYXNlX2Rpcn0vJHtyZW1vdGVfbWFjaGluZX0vIgoKZWNobyAiQmVnaW4gJHJlbW90ZV9tYWNoaW5lIGJhY2t1cC4uLiIKCiMgY2FsbCBzY3JpcHQgb24gdGhlIHJlbW90ZSB0byBnZW5lcmF0ZSBmcmVzaCBlbmNyeXB0ZWQgdGFyYmFsbApzc2ggIiRyZW1vdGVfbWFjaGluZSIgIi4vYmluL2FyY2hpdmUtbWFjaGluZSIgPiAiL3RtcC9iYWNrdXAtY29udHJvbGxlci5sb2ciIDI+JjEKCmVjaG8gInRhcmJhbGwgY3JlYXRlZCwgYmVnaW4gc2NwLi4uIgoKIyBlbnN1cmUgZGlyIGV4aXN0cwppZiBbWyAhIC1kICIkbG9jYWxfZGVzdCIgXV07IHRoZW4gbWtkaXIgLXAgIiRsb2NhbF9kZXN0IjsgZmkKCiMgY29weSB0aGUgZW5jcnlwdGVkIHRhcmJhbGwgbG9jYWxseQpzY3AgIiRyZW1vdGVfbWFjaGluZSI6L3RtcC9iYWNrdXAudGd6LmdwZyAiJGxvY2FsX2Rlc3QiCgplY2hvICJGaW5pc2ggJHJlbW90ZV9tYWNoaW5lIGJhY2t1cC4uLiIgfCB0ZWUgIi90bXAvYmFja3VwLWNvbnRyb2xsZXIubG9nIgps</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IyByZXF1aXJlcyBiaW4vYXJjaGl2ZS1tYWNoaW5lIG9uIHRoZSB0YXJnZXQsIGFuZCBwYXNzd29yZGxlc3Mgc3VkbwojIGNvdWxkIGFsc28gdGhpbmsgYWJvdXQgbWFpbnRhaW5pbmcgdGhlIGFyY2hpdmUgbG9naWMgaGVyZSwgYW5kIHNjcCB0aGUgc2NyaXB0IGFjcm9zcwojIGFsc28uLi5jb3VsZCBlYXNpbHkgYmUgYW4gYW5zaWJsZSBwbGF5Ym9vawo=</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICBhY3Rpb25fc3RhdHVzPSQoKQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGN1cnJlbnRfc3RhdHVzPSQoZG9jdGwgY29tcHV0ZSBkcm9wbGV0LWFjdGlvbiBnZXQgOTA4OTI0MTcgLS1hY3Rpb24taWQgNTM4OTE2NDI2IC0tb3V0cHV0PWpzb24gfCBqcSAnLltdLnN0YXR1cycgfCB0ciAtZCAnIicpCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGN1cnJlbnRfc3RhdHVzPSQoZG9jdGwgY29tcHV0ZSBkcm9wbGV0LWFjdGlvbiBnZXQgOTA4OTI0MTcgLS1hY3Rpb24taWQgNTM4OTE2NDI2IC0tb3V0cHV0PWpzb24gfCBqcSAnLltdLnN0YXR1cycgfCB0ciAtZCAnIicpCg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>%s/droplet_size/droplet_slug/g</text>
       </register>
     </registers>
     <search>
+      <last-search>droplet_size</last-search>
+      <last-pattern>droplet_size</last-pattern>
+      <last-replace>droplet_slug</last-replace>
+      <last-substitute>droplet_size</last-substitute>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
-      <history-search />
+      <history-search>
+        <entry>\/tmp\/resizedroplet.log</entry>
+        <entry>droplet_size</entry>
+      </history-search>
       <history-cmd>
         <entry>x</entry>
         <entry>q</entry>
+        <entry>%s/\/tmp\/resizedroplet.log/$log_file/g</entry>
+        <entry>%s/droplet_size/droplet_slug/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -77,6 +103,9 @@
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
