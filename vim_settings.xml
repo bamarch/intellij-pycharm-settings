@@ -6,6 +6,12 @@
       <file name="/Dummy.txt" timestamp="1537127926463">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539198717690">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="^" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+      </file>
       <file name="$USER_HOME$/google-drive/ws/ansible/README.md" timestamp="1537207067648">
         <mark key="[" line="32" column="110" />
         <mark key="]" line="31" column="5" />
@@ -21,6 +27,36 @@
     </filemarks>
     <jumps />
     <registers>
+      <register name="0" type="2">
+        <text encoding="base64">ZWNobyAiRm91bmQgSUQgJGRyb3BsZXRfaWQgZm9yICRkcm9wbGV0X25hbWUuIgo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">cyAtbHJ0aCAiJGxvY2FsX2Rlc3QiCg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CnJlbW90ZV9tYWNoaW5lPSIkMSIKbG9jYWxfYmFja3VwX2Jhc2VfZGlyPSJ+L0RvY3VtZW50cy9iYWNrdXBzL21hY2hpbmVzIgpsb2NhbF9kZXN0PSIke2xvY2FsX2JhY2t1cF9iYXNlX2Rpcn0vJHtyZW1vdGVfbWFjaGluZX0vIgoKZWNobyAiQmVnaW4gJHJlbW90ZV9tYWNoaW5lIGJhY2t1cC4uLiIKCiMgY2FsbCBzY3JpcHQgb24gdGhlIHJlbW90ZSB0byBnZW5lcmF0ZSBmcmVzaCBlbmNyeXB0ZWQgdGFyYmFsbApzc2ggIiRyZW1vdGVfbWFjaGluZSIgIi4vYmluL2FyY2hpdmUtbWFjaGluZSIgPiAiL3RtcC9iYWNrdXAtY29udHJvbGxlci5sb2ciIDI+JjEKCmVjaG8gInRhcmJhbGwgY3JlYXRlZCwgYmVnaW4gc2NwLi4uIgoKIyBlbnN1cmUgZGlyIGV4aXN0cwppZiBbWyAhIC1kICIkbG9jYWxfZGVzdCIgXV07IHRoZW4gbWtkaXIgLXAgIiRsb2NhbF9kZXN0IjsgZmkKCiMgY29weSB0aGUgZW5jcnlwdGVkIHRhcmJhbGwgbG9jYWxseQpzY3AgIiRyZW1vdGVfbWFjaGluZSI6L3RtcC9iYWNrdXAudGd6LmdwZyAiJGxvY2FsX2Rlc3QiCgplY2hvICJGaW5pc2ggJHJlbW90ZV9tYWNoaW5lIGJhY2t1cC4uLiIgfCB0ZWUgIi90bXAvYmFja3VwLWNvbnRyb2xsZXIubG9nIgps</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">IyByZXF1aXJlcyBiaW4vYXJjaGl2ZS1tYWNoaW5lIG9uIHRoZSB0YXJnZXQsIGFuZCBwYXNzd29yZGxlc3Mgc3VkbwojIGNvdWxkIGFsc28gdGhpbmsgYWJvdXQgbWFpbnRhaW5pbmcgdGhlIGFyY2hpdmUgbG9naWMgaGVyZSwgYW5kIHNjcCB0aGUgc2NyaXB0IGFjcm9zcwojIGFsc28uLi5jb3VsZCBlYXNpbHkgYmUgYW4gYW5zaWJsZSBwbGF5Ym9vawo=</text>
+      </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
