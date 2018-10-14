@@ -6,12 +6,12 @@
       <file name="/Dummy.txt" timestamp="1537127926463">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539527220276">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="105" column="28" />
-        <mark key="]" line="108" column="22" />
-        <mark key="^" line="108" column="22" />
-        <mark key="." line="108" column="22" />
+      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539530036869">
+        <mark key="'" line="86" column="42" />
+        <mark key="[" line="97" column="24" />
+        <mark key="]" line="97" column="50" />
+        <mark key="." line="97" column="50" />
+        <mark key="^" line="97" column="50" />
       </file>
       <file name="$USER_HOME$/google-drive/ws/ansible/README.md" timestamp="1537207067648">
         <mark key="[" line="32" column="110" />
@@ -33,25 +33,45 @@
       <jump line="52" column="67" filename="$USER_HOME$/bin/resize-droplet" />
       <jump line="78" column="101" filename="$USER_HOME$/bin/resize-droplet" />
       <jump line="0" column="0" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="43" column="8" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="71" column="73" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="27" column="2" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="44" column="66" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="45" column="11" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="107" column="36" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="106" column="36" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="91" column="43" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="80" column="55" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="74" column="48" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="42" column="48" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="30" column="18" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="29" column="2" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="115" column="40" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="69" column="4" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="98" column="46" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="67" column="21" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="126" column="30" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="125" column="21" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="85" column="42" filename="$USER_HOME$/bin/resize-droplet" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>doctl compute droplet get &quot;$droplet_id&quot; --output=&quot;json&quot; | jq '.[].size_slug' | tr -d '&quot;')</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>doctl compute droplet get &quot;$droplet_id&quot; --output=&quot;json&quot; | jq '.[].size_slug' | tr -d '&quot;')</text>
+        <text>fetch-droplet-action-resize-status &quot;$droplet_id&quot; &quot;$resize_action_id&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>droplet_size</text>
+        <text>resize-status</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICAjIEdvIG5vIGZ1cnRoZXIgaWYgdGhlIGRyb3BsZXQgZG9lc24ndCBuZWVkIHJlc2l6aW5nCiAgIyBUT0RPIHJlcGxhY2Ugd2l0aCBmZXRjaC1kcm9wbGV0LWluZm8tYnktaWQKICBjdXJyZW50X3NsdWc9JChkb2N0bCBjb21wdXRlIGRyb3BsZXQgZ2V0ICIkZHJvcGxldF9pZCIgLS1vdXRwdXQ9Impzb24iIHwganEgJy5bXS5zaXplX3NsdWcnIHwgdHIgLWQgJyInKQogIGVjaG8gIkN1cnJlbnQgc2l6ZV9zbHVnOiAkY3VycmVudF9zbHVnIERlc2lyZWQgc2l6ZV9zbHVnOiAkZHJvcGxldF9zbHVnIiAgIyMjPj4gIiRsb2dfZmlsZSIgMj4mMQogICBpZiBbWyAiJGRyb3BsZXRfc2x1ZyIgPSAiJGN1cnJlbnRfc2x1ZyIgXV07IHRoZW4KICAgIGVjaG8gIldpbGwgbm90IHByb2NlZWQgZnVydGhlciwgbm8gcmVzaXplIGlzIHJlcXVpcmVkLiIgIyMjPj4gIiRsb2dfZmlsZSIgMj4mMQogICAgZXhpdCAwCiAgZmkK</text>
+        <text>droplet-power-on</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAjIFRPRE8gdXNlIElEIGhlcmUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -60,42 +80,52 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBkb2N0bCBjb21wdXRlIGRyb3BsZXQtYWN0aW9uIHBvd2VyLW9uICIkZHJvcGxldF9pZCIK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBhY3Rpb25fc3RhdHVzPSQoKQo=</text>
+        <text encoding="base64">ICAjIGUuZy4gCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGN1cnJlbnRfc3RhdHVzPSQoZG9jdGwgY29tcHV0ZSBkcm9wbGV0LWFjdGlvbiBnZXQgOTA4OTI0MTcgLS1hY3Rpb24taWQgNTM4OTE2NDI2IC0tb3V0cHV0PWpzb24gfCBqcSAnLltdLnN0YXR1cycgfCB0ciAtZCAnIicpCg==</text>
+        <text encoding="base64">ICAgIGVjaG8gIkVycm9yIHJlc2l6ZV9hY3Rpb25faWQgbm90IHNldCIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGN1cnJlbnRfc3RhdHVzPSQoZG9jdGwgY29tcHV0ZSBkcm9wbGV0LWFjdGlvbiBnZXQgOTA4OTI0MTcgLS1hY3Rpb24taWQgNTM4OTE2NDI2IC0tb3V0cHV0PWpzb24gfCBqcSAnLltdLnN0YXR1cycgfCB0ciAtZCAnIicpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/droplet_size/droplet_slug/g</text>
+        <text>%s/action_id/resize_action_id/g</text>
       </register>
     </registers>
     <search>
-      <last-search>droplet_size</last-search>
-      <last-pattern>droplet_size</last-pattern>
-      <last-replace>droplet_slug</last-replace>
-      <last-substitute>droplet_size</last-substitute>
-      <last-dir>0</last-dir>
+      <last-search>resize-status</last-search>
+      <last-offset />
+      <last-pattern>resize-status</last-pattern>
+      <last-replace>resize_action_id</last-replace>
+      <last-substitute>action_id</last-substitute>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
         <entry>\/tmp\/resizedroplet.log</entry>
         <entry>droplet_size</entry>
+        <entry>current_slug</entry>
+        <entry>droplet_slug</entry>
+        <entry>droplet_id</entry>
+        <entry>action_id</entry>
+        <entry>resize_status</entry>
+        <entry>resize-status</entry>
       </history-search>
       <history-cmd>
         <entry>x</entry>
         <entry>q</entry>
         <entry>%s/\/tmp\/resizedroplet.log/$log_file/g</entry>
         <entry>%s/droplet_size/droplet_slug/g</entry>
+        <entry>%s/current_slug/current_size_slug/g</entry>
+        <entry>%s/droplet_slug/target_size_slug/g</entry>
+        <entry>%s/action_id/resize_action_id/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
