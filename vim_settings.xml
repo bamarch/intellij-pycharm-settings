@@ -6,12 +6,9 @@
       <file name="/Dummy.txt" timestamp="1537127926463">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539206404443">
+      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539524528852">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="107" column="60" />
-        <mark key="]" line="109" column="15" />
-        <mark key="^" line="109" column="15" />
-        <mark key="." line="109" column="15" />
+        <mark key="[" line="105" column="28" />
       </file>
       <file name="$USER_HOME$/google-drive/ws/ansible/README.md" timestamp="1537207067648">
         <mark key="[" line="32" column="110" />
@@ -35,17 +32,17 @@
       <jump line="0" column="0" filename="$USER_HOME$/bin/resize-droplet" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAjIFRPRE8gdXNlIElEIGhlcmUK</text>
+      <register name="&quot;" type="4">
+        <text>doctl compute droplet get &quot;$droplet_id&quot; --output=&quot;json&quot; | jq '.[].size_slug' | tr -d '&quot;')</text>
       </register>
       <register name="-" type="4">
-        <text>$(doctl compute droplet-action get &quot;$droplet_id&quot; --action-id &quot;$action_id&quot; --output=json | jq '.[].status' | tr -d '&quot;')</text>
+        <text>doctl compute droplet get &quot;$droplet_id&quot; --output=&quot;json&quot; | jq '.[].size_slug' | tr -d '&quot;')</text>
       </register>
       <register name="/" type="4">
         <text>droplet_size</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAjIFRPRE8gcmVwbGFjZSB3aXRoIGZldGNoLWRyb3BsZXQtaW5mby1ieS1pZAo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICAjIEdvIG5vIGZ1cnRoZXIgaWYgdGhlIGRyb3BsZXQgZG9lc24ndCBuZWVkIHJlc2l6aW5nCiAgIyBUT0RPIHJlcGxhY2Ugd2l0aCBmZXRjaC1kcm9wbGV0LWluZm8tYnktaWQKICBjdXJyZW50X3NsdWc9JChkb2N0bCBjb21wdXRlIGRyb3BsZXQgZ2V0ICIkZHJvcGxldF9pZCIgLS1vdXRwdXQ9Impzb24iIHwganEgJy5bXS5zaXplX3NsdWcnIHwgdHIgLWQgJyInKQogIGVjaG8gIkN1cnJlbnQgc2l6ZV9zbHVnOiAkY3VycmVudF9zbHVnIERlc2lyZWQgc2l6ZV9zbHVnOiAkZHJvcGxldF9zbHVnIiAgIyMjPj4gIiRsb2dfZmlsZSIgMj4mMQogICBpZiBbWyAiJGRyb3BsZXRfc2x1ZyIgPSAiJGN1cnJlbnRfc2x1ZyIgXV07IHRoZW4KICAgIGVjaG8gIldpbGwgbm90IHByb2NlZWQgZnVydGhlciwgbm8gcmVzaXplIGlzIHJlcXVpcmVkLiIgIyMjPj4gIiRsb2dfZmlsZSIgMj4mMQogICAgZXhpdCAwCiAgZmkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAjIFRPRE8gdXNlIElEIGhlcmUK</text>
