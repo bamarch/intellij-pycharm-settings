@@ -19,12 +19,17 @@
         <mark key="^" line="31" column="5" />
         <mark key="." line="31" column="5" />
       </file>
-      <file name="$USER_HOME$/bin/backup-remote-machine" timestamp="1539198840024" />
       <file name="$USER_HOME$/google-drive/ws/ansible/.gitignore" timestamp="1537128565178">
         <mark key="[" line="4" column="6" />
         <mark key="]" line="5" column="4" />
         <mark key="^" line="5" column="4" />
         <mark key="." line="5" column="4" />
+      </file>
+      <file name="$USER_HOME$/Documents/ws/ansible/README.md" timestamp="1540132676710">
+        <mark key="[" line="52" column="2" />
+        <mark key="]" line="52" column="0" />
+        <mark key="^" line="52" column="0" />
+        <mark key="." line="52" column="0" />
       </file>
     </filemarks>
     <jumps>
