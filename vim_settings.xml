@@ -1,118 +1,8 @@
 <application>
-  <component name="VimSettings">
-    <state version="4" enabled="true" />
-    <globalmarks />
-    <filemarks>
-      <file name="/Dummy.txt" timestamp="1537127926463">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539531166300">
-        <mark key="'" line="140" column="8" />
-        <mark key="[" line="97" column="24" />
-        <mark key="]" line="97" column="50" />
-        <mark key="." line="97" column="50" />
-        <mark key="^" line="97" column="50" />
-      </file>
-      <file name="$USER_HOME$/google-drive/ws/ansible/README.md" timestamp="1537207067648">
-        <mark key="[" line="32" column="110" />
-        <mark key="]" line="31" column="5" />
-        <mark key="^" line="31" column="5" />
-        <mark key="." line="31" column="5" />
-      </file>
-      <file name="$USER_HOME$/google-drive/ws/ansible/.gitignore" timestamp="1537128565178">
-        <mark key="[" line="4" column="6" />
-        <mark key="]" line="5" column="4" />
-        <mark key="^" line="5" column="4" />
-        <mark key="." line="5" column="4" />
-      </file>
-      <file name="$USER_HOME$/Documents/ws/ansible/README.md" timestamp="1540132676710">
-        <mark key="[" line="52" column="2" />
-        <mark key="]" line="52" column="0" />
-        <mark key="^" line="52" column="0" />
-        <mark key="." line="52" column="0" />
-      </file>
-    </filemarks>
-    <jumps>
-      <jump line="23" column="52" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="26" column="3" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="52" column="67" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="78" column="101" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="0" column="0" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="43" column="8" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="71" column="73" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="27" column="2" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="44" column="66" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="45" column="11" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="107" column="36" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="106" column="36" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="91" column="43" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="80" column="55" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="74" column="48" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="42" column="48" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="30" column="18" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="29" column="2" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="115" column="40" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="69" column="4" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="98" column="46" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="67" column="21" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="126" column="30" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="125" column="21" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="85" column="42" filename="$USER_HOME$/bin/resize-droplet" />
-      <jump line="140" column="8" filename="$USER_HOME$/bin/resize-droplet" />
-    </jumps>
-    <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="-" type="4">
-        <text>fetch-droplet-action-resize-status &quot;$droplet_id&quot; &quot;$resize_action_id&quot;</text>
-      </register>
-      <register name="/" type="4">
-        <text>###</text>
-      </register>
-      <register name="0" type="4">
-        <text>droplet-power-on</text>
-      </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICBkb2N0bCBjb21wdXRlIGRyb3BsZXQtYWN0aW9uIHBvd2VyLW9uICIkZHJvcGxldF9pZCIK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAjIGUuZy4gCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGVjaG8gIkVycm9yIHJlc2l6ZV9hY3Rpb25faWQgbm90IHNldCIK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name=":" type="4">
-        <text>w</text>
-      </register>
-    </registers>
-    <search>
-      <last-search>###</last-search>
-      <last-offset />
-      <last-pattern>###</last-pattern>
-      <last-replace />
-      <last-substitute>###</last-substitute>
-      <last-dir>-1</last-dir>
-      <show-last>false</show-last>
-    </search>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
     <history>
       <history-search>
         <entry>\/tmp\/resizedroplet.log</entry>
@@ -139,6 +29,8 @@
       <history-expr />
       <history-input />
     </history>
+  </component>
+  <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed F</text>
@@ -222,5 +114,138 @@
         <text>ctrl pressed I</text>
       </shortcut-conflict>
     </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1537127926463">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/bin/resize-droplet" timestamp="1539531166300">
+        <mark key="'" line="140" column="8" />
+        <mark key="[" line="97" column="24" />
+        <mark key="]" line="97" column="50" />
+        <mark key="." line="97" column="50" />
+        <mark key="^" line="97" column="50" />
+      </file>
+      <file name="$USER_HOME$/google-drive/ws/ansible/README.md" timestamp="1537207067648">
+        <mark key="[" line="32" column="110" />
+        <mark key="]" line="31" column="5" />
+        <mark key="^" line="31" column="5" />
+        <mark key="." line="31" column="5" />
+      </file>
+      <file name="$USER_HOME$/google-drive/ws/ansible/.gitignore" timestamp="1537128565178">
+        <mark key="[" line="4" column="6" />
+        <mark key="]" line="5" column="4" />
+        <mark key="^" line="5" column="4" />
+        <mark key="." line="5" column="4" />
+      </file>
+      <file name="$USER_HOME$/Documents/ws/ansible/README.md" timestamp="1540132676710">
+        <mark key="[" line="52" column="2" />
+        <mark key="]" line="52" column="0" />
+        <mark key="^" line="52" column="0" />
+        <mark key="." line="52" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/ws/aws/backups/main.tf" timestamp="1589064186481">
+        <mark key="'" line="86" column="0" />
+        <mark key="[" line="30" column="1" />
+        <mark key="]" line="32" column="6" />
+        <mark key="^" line="32" column="6" />
+        <mark key="." line="32" column="5" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="23" column="52" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="26" column="3" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="52" column="67" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="78" column="101" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="0" column="0" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="43" column="8" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="71" column="73" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="27" column="2" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="44" column="66" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="45" column="11" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="107" column="36" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="106" column="36" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="91" column="43" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="80" column="55" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="74" column="48" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="42" column="48" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="30" column="18" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="29" column="2" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="115" column="40" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="69" column="4" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="98" column="46" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="67" column="21" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="126" column="30" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="125" column="21" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="85" column="42" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="140" column="8" filename="$USER_HOME$/bin/resize-droplet" />
+      <jump line="86" column="0" filename="$USER_HOME$/Documents/ws/aws/backups/main.tf" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>fetch-droplet-action-resize-status &quot;$droplet_id&quot; &quot;$resize_action_id&quot;</text>
+      </register>
+      <register name="/" type="4">
+        <text>###</text>
+      </register>
+      <register name="0" type="4">
+        <text>droplet-power-on</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICBkb2N0bCBjb21wdXRlIGRyb3BsZXQtYWN0aW9uIHBvd2VyLW9uICIkZHJvcGxldF9pZCIK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAjIGUuZy4gCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGVjaG8gIkVycm9yIHJlc2l6ZV9hY3Rpb25faWQgbm90IHNldCIK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>###</last-search>
+      <last-offset />
+      <last-pattern>###</last-pattern>
+      <last-replace />
+      <last-substitute>###</last-substitute>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
   </component>
 </application>

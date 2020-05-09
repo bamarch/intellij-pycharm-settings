@@ -1,0 +1,14 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="GotoBookmark1">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="GotoBookmark2">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="GotoBookmark3">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="GotoBookmark4">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+</keymap>
