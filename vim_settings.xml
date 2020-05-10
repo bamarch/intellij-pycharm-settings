@@ -134,6 +134,17 @@
         <mark key="^" line="31" column="5" />
         <mark key="." line="31" column="5" />
       </file>
+      <file name="$USER_HOME$/Documents/ws/aws/backups/variables.tf" timestamp="1589142179427">
+        <mark key="[" line="0" column="21" />
+        <mark key="]" line="1" column="53" />
+        <mark key="." line="1" column="52" />
+        <mark key="^" line="1" column="53" />
+      </file>
+      <file name="$USER_HOME$/Documents/ws/aws/backups/providers.tf" timestamp="1589142206430">
+        <mark key="[" line="1" column="56" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
       <file name="$USER_HOME$/google-drive/ws/ansible/.gitignore" timestamp="1537128565178">
         <mark key="[" line="4" column="6" />
         <mark key="]" line="5" column="4" />
@@ -146,12 +157,18 @@
         <mark key="^" line="52" column="0" />
         <mark key="." line="52" column="0" />
       </file>
-      <file name="$USER_HOME$/Documents/ws/aws/backups/main.tf" timestamp="1589064186481">
-        <mark key="'" line="86" column="0" />
-        <mark key="[" line="30" column="1" />
-        <mark key="]" line="32" column="6" />
-        <mark key="^" line="32" column="6" />
-        <mark key="." line="32" column="5" />
+      <file name="$USER_HOME$/Documents/ws/aws/backups/terraform.tfvars" timestamp="1589142158629">
+        <mark key="[" line="1" column="36" />
+        <mark key="]" line="1" column="58" />
+        <mark key="^" line="1" column="58" />
+        <mark key="." line="1" column="57" />
+      </file>
+      <file name="$USER_HOME$/Documents/ws/aws/backups/main.tf" timestamp="1589142304960">
+        <mark key="'" line="91" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="27" column="22" />
+        <mark key="^" line="27" column="22" />
+        <mark key="." line="27" column="21" />
       </file>
     </filemarks>
     <jumps>
@@ -187,7 +204,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICByZWdpb24gICAgPSB2YXIuYXdzX3JlZ2lvbgo=</text>
       </register>
       <register name="-" type="4">
         <text>fetch-droplet-action-resize-status &quot;$droplet_id&quot; &quot;$resize_action_id&quot;</text>
@@ -199,31 +216,33 @@
         <text>droplet-power-on</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICByZWdpb24gICAgPSB2YXIuYXdzX3JlZ2lvbgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICBwcm9maWxlICAgPSB2YXIuYXdzX3Byb2ZpbGUK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>variable &quot;aws_region&quot; {
+  description = &quot;AWS provider region&quot;
+}</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YXdzX3JlZ2lvbiAgICAgICA9ICJldS13ZXN0LTEiCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBkb2N0bCBjb21wdXRlIGRyb3BsZXQtYWN0aW9uIHBvd2VyLW9uICIkZHJvcGxldF9pZCIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAjIGUuZy4gCg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGVjaG8gIkVycm9yIHJlc2l6ZV9hY3Rpb25faWQgbm90IHNldCIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBkb2N0bCBjb21wdXRlIGRyb3BsZXQtYWN0aW9uIHBvd2VyLW9uICIkZHJvcGxldF9pZCIK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
